@@ -45,3 +45,32 @@ Please include:
 
 Please fork this repo and commit your code to it. Then, you can show your work and process through those commits.
 
+**How to Run**
+
+- Setup Database:
+  - docker-compose up -d. This will create the docker container for a postgres database
+- Run Http Server:
+  - set same environment variables as the ones inside docker-compose file for database
+  - include a logging level environment variable
+  - move to cmd/api execute go mod tidy and then go run main.go
+
+**Thinking Process**
+- How I could I provide authentication? investigate how to use JWT
+- Decide to use a database. why? I think update and delete make sense from a storage perspective in terms of resource (REST)
+  - Decide to use gorm why? flexibility to make the database querys
+- Project Structure decide to set all as internal packages.
+- I do create annotations for all the endpoints.
+- I decide to use Gin webframework fast development framework that i know more.
+
+**How do I test it**
+- postman collection included
+
+**Enhacements**
+- generate openpai spec
+- better logging to include where the message happens
+- database connection pool suitable for production environment
+- tackle gin warning messages for production
+
+
+
+
