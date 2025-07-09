@@ -70,7 +70,7 @@ Please fork this repo and commit your code to it. Then, you can show your work a
 - better logging to include where the message happens
 - database connection pool suitable for production environment
 - address gin warning messages for production
-
+- mechanism to enable a user I could use the email I am collecting.
 
 
 
