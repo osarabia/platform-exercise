@@ -55,7 +55,7 @@ Please fork this repo and commit your code to it. Then, you can show your work a
   - move to cmd/api execute go mod tidy and then go run main.go
 
 **Thinking Process**
-- How I could I provide authentication? investigate how to use JWT
+- How could I provide authentication? investigate how to use JWT
 - Decide to use a database. why? I think update and delete make sense from a storage perspective in terms of resource (REST)
   - Decide to use gorm why? flexibility to make the database querys
 - Project Structure decide to set all as internal packages.
