@@ -66,7 +66,7 @@ Please fork this repo and commit your code to it. Then, you can show your work a
 - postman collection included
 
 **Enhacements**
-- generate openpai spec
+- generate openapi spec
 - better logging to include where the message happens
 - database connection pool suitable for production environment
 - address gin warning messages for production
