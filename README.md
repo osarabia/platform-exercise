@@ -60,7 +60,7 @@ Please fork this repo and commit your code to it. Then, you can show your work a
   - Decide to use gorm why? flexibility to make the database querys
 - Project Structure decide to set all as internal packages.
 - I do create annotations for all the endpoints.
-- I decide to use Gin webframework fast development framework that i know more.
+- I decide to use Gin webframework faster development for me.
 
 **How do I test it**
 - postman collection included
