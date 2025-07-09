@@ -69,7 +69,7 @@ Please fork this repo and commit your code to it. Then, you can show your work a
 - generate openpai spec
 - better logging to include where the message happens
 - database connection pool suitable for production environment
-- tackle gin warning messages for production
+- address gin warning messages for production
 
 
 
